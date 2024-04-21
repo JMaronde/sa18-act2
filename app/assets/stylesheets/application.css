@@ -12,4 +12,21 @@
  *
  *= require_tree .
  *= require_self
+ *= require index
+ *= require show
  */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    margin: 0px;
+    background-color: darkslateblue;
+}
+
+h1 {
+    text-align: center;
+}
